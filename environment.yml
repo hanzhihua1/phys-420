@@ -6,9 +6,10 @@ channels:
 dependencies:
   - attrs=19.1.0=py_0
   - backcall=0.1.0=py_0
+  - blas=1.0=mkl
   - bleach=3.1.0=py_0
   - bokeh=1.3.4=py37_0
-  - ca-certificates=2019.6.16=hecc5488_0
+  - ca-certificates=2019.9.11=hecc5488_0
   - certifi=2019.6.16=py37_1
   - colorama=0.4.1=py_0
   - cycler=0.10.0=py_1
@@ -17,6 +18,7 @@ dependencies:
   - entrypoints=0.3=py37_1000
   - freetype=2.10.0=h563cfd7_1
   - holoviews=1.12.5=py_0
+  - icc_rt=2019.0.0=h0cc432a_1
   - icu=64.2=he025d50_1
   - intel-openmp=2019.4=245
   - ipykernel=5.1.2=py37h5ca1d4c_0
@@ -52,6 +54,7 @@ dependencies:
   - matplotlib-base=3.1.1=py37h2852a4a_1
   - mistune=0.8.4=py37hfa6e2cd_1000
   - mkl=2019.4=245
+  - mkl-service=2.3.0=py37hfa6e2cd_0
   - msys2-conda-epoch=20160418=1
   - nbconvert=5.6.0=py37_1
   - nbformat=4.4.0=py_1
@@ -61,6 +64,7 @@ dependencies:
   - opencv=4.1.1=3
   - openssl=1.1.1c=hfa6e2cd_0
   - packaging=19.0=py_0
+  - pandas=0.25.1=py37he350917_0
   - pandoc=2.7.3=0
   - pandocfilters=1.4.2=py_1
   - param=1.9.1=py_0
@@ -76,11 +80,13 @@ dependencies:
   - pyrsistent=0.15.4=py37hfa6e2cd_0
   - python=3.7.3=h510b542_1
   - python-dateutil=2.8.0=py_0
+  - pytz=2019.2=py_0
   - pyviz_comms=0.7.2=py_0
   - pywinpty=0.5.5=py37_1000
   - pyyaml=5.1.2=py37hfa6e2cd_0
   - pyzmq=18.0.2=py37h16f9016_2
   - qt=5.12.1=h444579a_0
+  - scipy=1.3.1=py37h29ff71c_0
   - send2trash=1.5.0=py_0
   - setuptools=41.2.0=py37_0
   - six=1.12.0=py37_1000
